@@ -25,3 +25,16 @@ Place 'cars.csv' file in the same directory
 Use 'cars.head()' to display the first five rows of the resulting cars
 
 
+### B.
+
+This code is similar to Problem 1 (A), its difference is that it displays the last 5 rows instead of the first 5 rows
+
+It uses the function: 'cars.tail()'
+
+
+## PROBLEM 2
+
+### A.
+### B.
+### C.
+### D.
