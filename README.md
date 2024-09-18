@@ -8,7 +8,7 @@ SECTION: 2ECE-Dㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ�
 ㅤ
 ## PROBLEM 1ㅤ
 
-### A.
+A.
 
 The code uses a CSV file containing information about cars, the goal is to display the first five rows of the dataset. 
 ㅤ
