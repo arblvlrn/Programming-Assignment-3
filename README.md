@@ -15,12 +15,6 @@ The code uses a CSV file containing information about cars, the goal is to displ
 1st step:
 
 Input "import pandas as pd" for efficiency and readability of pandas commands
-ㅤ
-2nd step:
 
-Place 'cars.csv' file in the same directory
-ㅤ
-3rd step: 
-Use 'cars.head()' to display the first five rows of the resulting cars
 
 
