@@ -49,8 +49,55 @@ cars.iloc[:5, [1, 3, 5, 7, 9]]
 ````
 
 
-
-
 ### B.
+
+1st step:
+
+Using the loc method to access rows by the label.
+
+2nd step:
+
+````
+cars['Model'] == 'Mazda RX4'
+````
+This part checks the Model column of the cars DataFrame to find rows where the value is equal to 'Mazda RX4'. This condition also uses boolean function.
+
+
 ### C.
+
+1st step:
+
+This part is similar to the 1st step of Problem 2 (B), by using the loc method.
+
+2nd step:
+
+````
+cars['Model'] == 'Camaro Z28'
+````
+This part checks the Model column in the cars DataFrame for rows where the value is 'Camaro Z28'. It creates a boolean Series where True indicates a match.
+
+3rd step:
+
+'cyl' indicates that it is specifically retrieving the cylinder column.
+
 ### D.
+
+1st step:
+
+This part is similar to the 1st step of Problem 2 (B and C), by using the loc method.
+
+2nd step:
+
+using '.isin' to check if the values in the Model column are one of the specified models. It returns a boolean Series where True indicates a match for any of the three car models.
+
+3rd step:
+
+Inputting 'cyl' and 'gear' specifically retrieves the cylinder and gear columns of the resulting rows.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+## Conclusion
+
+The given problems are easy to make because of the few functions to be coded. It saves time and effort creating rows and columns one by one.
+
+
+
